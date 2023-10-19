@@ -1,0 +1,49 @@
+package maratona.javacore.modificadoresEstaticos.dominio;
+
+public class Carro4 {
+	private String nome;
+	private double velocidadeMaxima;
+	private static double velocidadeLimite2 = 250;
+	private static double[] viagens;
+	
+	//Bloco de inicialização 
+	{
+		viagens = new double[10];
+		for(int i = 1; i <= viagens.length; i++) {
+			
+		}
+	}
+	
+	public Carro4(String nome, double velocidadeMaxima) {
+		this.nome = nome;
+		this.velocidadeMaxima = velocidadeMaxima;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getVelocidadeMaxima() {
+		return velocidadeMaxima;
+	}
+
+	public void setVelocidadeMaxima(double velocidadeMaxima) {
+		this.velocidadeMaxima = velocidadeMaxima;
+	}
+
+	public static double getVelocidadeLimite2() {
+		return velocidadeLimite2;
+	}
+
+	public static void setVelocidadeLimite2(double velocidadeLimite2) {
+		Carro4.velocidadeLimite2 = velocidadeLimite2;
+	}
+	
+	
+	
+	
+}

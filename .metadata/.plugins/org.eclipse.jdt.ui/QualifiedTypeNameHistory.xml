@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javamaratona.introducao.HelloWoorld"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.maratona.core.introducaoClasses.dominio.Pessoa"/>
+    <fullyQualifiedTypeName name="maratona.javacore.introducaometodos.dominio.Pessoa"/>
+    <fullyQualifiedTypeName name="java.security.Identity"/>
+    <fullyQualifiedTypeName name="maratona.javacore.construtores.dominio.Anime"/>
+    <fullyQualifiedTypeName name="maratona.javacore.blocosDeInicializacao.dominio.Anime2"/>
+    <fullyQualifiedTypeName name="maratona.javacore.modificadoresEstaticos.dominio.Carro2"/>
+    <fullyQualifiedTypeName name="maratona.javacore.modificadoresEstaticos.dominio.Carro3"/>
+    <fullyQualifiedTypeName name="java.awt.dnd.DropTargetContext"/>
+    <fullyQualifiedTypeName name="maratona.javacore.modificadoresEstaticos.dominio.Carro4"/>
+</qualifiedTypeNameHistroy>

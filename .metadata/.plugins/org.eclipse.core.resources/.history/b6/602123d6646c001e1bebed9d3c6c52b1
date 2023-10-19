@@ -1,0 +1,10 @@
+package maratona.javacore.construtores.teste;
+
+import maratona.javacore.construtores.dominio.Anime;
+
+public class AnimeTeste {
+	public static void main(String[] args) {
+		Anime anime = new Anime();
+		anime.init("Mob", "TV", 36, "Shounen");
+	}
+}

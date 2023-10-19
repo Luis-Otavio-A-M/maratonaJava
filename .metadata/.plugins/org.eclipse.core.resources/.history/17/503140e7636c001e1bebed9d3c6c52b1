@@ -1,0 +1,8 @@
+package maratona.javacore.construtores.dominio;
+
+public class Anime {
+	private String nome;
+	private String tipo;
+	private int episodios;
+	private String genero;
+}

@@ -1,0 +1,12 @@
+package maratona.javacore.blocosDeInicializacao.teste;
+
+import maratona.javacore.blocosDeInicializacao.dominio.Anime2;
+
+public class AnimeTeste2 {
+	public static void main(String[] args) {
+		Anime2 anime = new Anime2();
+		for(int episodio: anime.getEpisodios()) {
+			System.out.print(episodio + ", ");
+		}
+	}
+}

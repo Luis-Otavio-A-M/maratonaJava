@@ -1,0 +1,9 @@
+package maratona.javacore.modificadoresEstaticos.teste;
+
+public class CarroTeste2 {
+	public static void main(String[] args) {
+		//Neste exemplo é necessário que haja um limite de velocidade que afeta todos os carros
+		
+		
+	}
+}
