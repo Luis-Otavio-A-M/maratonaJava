@@ -1,0 +1,7 @@
+package maratona.javacore.associacao.teste;
+
+public class EscolaTeste {
+	public static void main(String[] args) {
+		Escola escola = new Escola("João XXIII");
+	}
+}

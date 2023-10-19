@@ -1,0 +1,25 @@
+package maratona.javacore.associacao.dominio;
+
+public class Jogador {
+	// Associação 1-N, onde um time é composto por vários jogadores, mas um jogador pertence a somente um time
+	private Time time; 
+	private String nome;
+
+	public Jogador(String name) {
+		this.nome = name;
+	}
+
+	public String getName() {
+		return nome;
+	}
+
+	public void setName(String name) {
+		this.nome = name;
+	}
+	
+	
+	
+	public void imprimir() {
+		System.out.println(nome);
+	}
+}

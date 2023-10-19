@@ -1,0 +1,8 @@
+package maratona.javacore.associacao.teste;
+
+public class JogadorTeste2 {
+	public static void main(String[] args) {
+		Jogador jogador1 = new Jogador("Maradona");
+		
+	}
+}

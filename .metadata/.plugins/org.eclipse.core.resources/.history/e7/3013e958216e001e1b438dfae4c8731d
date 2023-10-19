@@ -1,0 +1,11 @@
+package maratona.javacore.associacao.teste;
+
+import maratona.javacore.associacao.dominio.Jogador;
+
+public class JogadorTeste {
+	public static void main(String[] args) {
+		Jogador jogador1 = new Jogador("Gabigol Pescoço");
+		Jogador jogador2 = new Jogador("Ribamar");
+		Jogador jogador3 = new Jogador("");
+	}
+}

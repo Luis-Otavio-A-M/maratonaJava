@@ -1,0 +1,5 @@
+package maratona.javacore.associacao.dominio.exercicio;
+
+public class Aluno {
+
+}

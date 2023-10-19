@@ -1,0 +1,11 @@
+package maratona.javacore.associacao.dominio;
+
+public class Jogador {
+	private String name;
+
+	public Jogador(String name) {
+		this.name = name;
+	}
+	
+	
+}

@@ -1,0 +1,11 @@
+package maratona.javacore.associacao.teste.exercicio;
+
+import maratona.javacore.associacao.dominio.exercicio.Local;
+import maratona.javacore.associacao.dominio.exercicio.Seminario;
+
+public class ExercicioTeste {
+	public static void main(String[] args) {
+		Local local = new Local("Rua ABC, nº 123");
+		Seminario seminario = new Seminario("Estudos de Algoritmos Avançados", local);
+	}
+}

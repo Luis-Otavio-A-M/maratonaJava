@@ -6374,3 +6374,20 @@ org.eclipse.jgit.errors.TransportException: https://github.com/Luis-Otavio-A-M/m
 
 !ENTRY org.eclipse.egit.ui 4 0 2023-10-18 22:30:18.613
 !MESSAGE Can't connect to any repository: https://github.com/Luis-Otavio-A-M/maratonaJava.git (https://github.com/Luis-Otavio-A-M/maratonaJava.git: not authorized)
+
+!ENTRY org.eclipse.core.resources 2 2 2023-10-18 22:45:54.882
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-10-18 22:45:54.883
+!MESSAGE The project description file (.project) for '.org.eclipse.egit.core.cmp' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.ui 2 2 2023-10-18 22:57:14.963
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.foundation.ui, page: org.jboss.tools.foundation.ui.internal.credentials.CredentialPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2023-10-18 22:57:14.964
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2023-10-18 22:57:14.964
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2023-10-18 22:57:14.965
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.common.jdt.debug.ui, page: org.jboss.tools.common.jdt.debug.ui.preferences.RemoteDebugPreferencePage)

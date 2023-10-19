@@ -1,0 +1,7 @@
+package maratona.javacore.associacao.teste;
+
+public class LeituraTecladoTeste {
+	public static void main(String[] args) {
+		Scanner scanner = new SCanner(System.in);
+	}
+}

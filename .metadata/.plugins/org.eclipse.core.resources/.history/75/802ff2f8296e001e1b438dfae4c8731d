@@ -1,0 +1,10 @@
+package maratona.javacore.associacao.teste;
+
+import maratona.javacore.associacao.dominio.Time;
+
+public class JogadorTeste3 {
+	public static void main(String[] args) {
+		Time time = new Time("Flamengo");
+		
+	}
+}

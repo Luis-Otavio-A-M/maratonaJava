@@ -1,0 +1,5 @@
+package maratona.javacore.associacao.dominio;
+
+public class Time {
+
+}

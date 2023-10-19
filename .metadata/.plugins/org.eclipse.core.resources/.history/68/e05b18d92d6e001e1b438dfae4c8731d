@@ -1,0 +1,18 @@
+package maratona.javacore.associacao.dominio.exercicio;
+
+public class Seminario {
+	private String titulo;
+	private Aluno[] alunos;
+	public Seminario(String titulo) {
+		this.titulo = titulo;
+	}
+	
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	
+	
+}

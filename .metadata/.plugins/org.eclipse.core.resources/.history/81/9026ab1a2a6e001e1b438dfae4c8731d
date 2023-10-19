@@ -1,0 +1,13 @@
+package maratona.javacore.associacao.teste;
+
+import maratona.javacore.associacao.dominio.Jogador;
+import maratona.javacore.associacao.dominio.Time;
+
+public class JogadorTeste3 {
+	public static void main(String[] args) {
+		Time time = new Time("Flamengo");
+		Jogador jogador1 = new Jogador("Gabigol Pescoço");
+		Jogador jogador2 = new Jogador("Pedro Queixada");
+		Jogador jogador3 = new Jogador("");
+	}
+}
