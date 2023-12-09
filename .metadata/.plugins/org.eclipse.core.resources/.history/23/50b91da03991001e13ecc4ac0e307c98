@@ -1,0 +1,11 @@
+package maratona.classesUtilitarias.nio.teste;
+
+public class PosixFilesAtributtesTeste {
+	public static void main(String[] args) {
+		/*
+		 * Essa classe não roda no windows, meu SO, só roda
+		 * em ambientes Posix, por isso não execute o código.
+		 */
+		Path path = Paths.get("home/user/dev/temp.txt"); 
+	}
+}

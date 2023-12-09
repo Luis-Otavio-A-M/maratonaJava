@@ -1,0 +1,13 @@
+package maratona.classesUtilitarias.serializacao.teste;
+
+import maratona.classesUtilitarias.serializacao.dominio.ObjetoSerializado;
+
+public class SerializacaoTeste {
+	public static void main(String[] args) {
+		ObjetoSerializado objeto = new ObjetoSerializado(1L, "objeto", "1234");
+	}
+	
+	private static void serializar() {
+		
+	}
+}

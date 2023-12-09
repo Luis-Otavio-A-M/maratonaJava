@@ -1,7 +1,0 @@
-package maratona.javacore.associacao.teste;
-
-public class JogadorTeste3 {
-	public static void main(String[] args) {
-		Time flamengo = new Time("Flamengo");
-	}
-}

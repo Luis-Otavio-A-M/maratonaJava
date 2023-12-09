@@ -1,0 +1,18 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class PathTeste3 {
+	public static void main(String[] args) {
+		/*
+		 * Neste ponto, onde possuimos dois caminhos que se completam, como poderiamos uni-los
+		 * para chegarmos ao arquivo final.
+		 */
+		Path caminhoDir = Paths.get("home/user");
+		Path caminhoArquivo = Paths.get("dev/arquivo.txt");
+		Path caminhoFinal1 = Paths.get(caminhoDir.toString(), caminhoArquivo.toString());
+		System.out.println(caminhoFinal1);
+		
+	}
+}

@@ -1,0 +1,51 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class NormalizeTeste {
+	public static void main(String[] args) {
+		/*
+		 * Normalização, ao que entendi, é utilizadar para "combinar" caminhos absoluto* 
+		 * com caminhos relativos**
+		 * 
+		 * * Que neste conceito são caminhos onde não são omitidos nenhuma pasta pai, ou seja,
+		 * toda caminho para chegar ao arquivo é explicíto, exemplo: "home/user/dev" 
+		 * 
+		 * ** São caminhos onde a partir da pasta atual podemos referênciar outras pasta, 
+		 * fiou meio confuso, mas o exemplo vai ajudar a esclarecer, o caminho "../../" a 
+		 * partir da pasta dev, representa o caminho "home", neste caminhos "relativos"
+		 * usamos símbolos para referenciar as pastas e arquivos.
+		 */
+	
+		
+		String diretorioProjeto = "home/user/dev";
+		String arquivoProjeto = "../../arquivo.txt";
+		/*
+		 * Agora a questão, temos o diretório atual do projeto (absoluto) 
+		 * e o caminho do arquivo (relativo), como poderiamos criar um 
+		 * Path que representasse o arquivo "home/arquivo.txt", ou seja,
+		 * como combinamos estes dois caminhos para formar o caminho que queremos:
+		 */
+		
+		
+		Path caminhoFinal1 = Paths.get(diretorioProjeto.toString(), arquivoProjeto.toString()); 
+		System.out.println(caminhoFinal1); 
+		/*
+		 * Neste caso não obtivemos o resultado esperado, pois o caminho ficou
+		 * "home\\user\dev\..\..\arquivo.txt", simplesmente os dois caminhos foram 
+		 * concatenados.
+		 */
+		System.out.println(caminhoFinal1.normalize()); 
+		/*
+		 * O método normalize, como o nome sugere, normaliza o caminho,
+		 * assim, interpretando o caminho final
+		 */
+		
+		/*
+		 * Normalizando o ./
+		 */
+		
+		String diretorioProjeto2 = "./home/./user/./dev";
+	}
+}

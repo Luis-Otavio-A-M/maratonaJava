@@ -1,0 +1,23 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class PathTeste2 {
+	public static void main(String[] args) {
+		Path caminhoPasta = Paths.get("maratona\\classesUtilitarias\\nio\\teste\\folder");
+		try {
+			/*
+			 * Pelo que entendi a classe Files é um classe utilitária criada para operar em
+			 * cima do Path, separando assim a representação do Path das operações sobre 
+			 * o arquivo/pasta.
+			 */
+			
+			Files.createDirectory(caminhoPasta); /
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

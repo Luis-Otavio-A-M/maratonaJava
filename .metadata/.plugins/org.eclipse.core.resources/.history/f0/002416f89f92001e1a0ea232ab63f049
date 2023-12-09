@@ -1,0 +1,11 @@
+package maratona.classesUtilitarias.regex.teste;
+
+public class PathMatcherTeste {
+	public static void main(String[] args) {
+		
+	}
+	
+	private static void matches(Path path, String glob) {
+		
+	}
+}

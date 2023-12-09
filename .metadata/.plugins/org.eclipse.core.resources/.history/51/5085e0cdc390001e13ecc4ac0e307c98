@@ -1,0 +1,7 @@
+package maratona.classesUtilitarias.nio.teste;
+
+public class PathTeste2 {
+	public static void main(String[] args) {
+		
+	}
+}

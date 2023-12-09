@@ -1,0 +1,10 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class PathTeste2 {
+	public static void main(String[] args) {
+		Path caminhoPasta = Paths.get("maratona\\classesUtilitarias\\nio\\teste\\folder");
+	}
+}

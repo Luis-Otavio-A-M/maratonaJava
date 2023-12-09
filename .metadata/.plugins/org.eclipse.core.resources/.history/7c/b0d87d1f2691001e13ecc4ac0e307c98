@@ -1,0 +1,22 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.io.File;
+import java.nio.file.attribute.BasicFileAttributes;
+import java.time.LocalDateTime;
+
+public class BasisFileAtributtesTeste {
+	public static void main(String[] args) {
+		/*
+		 * BasicFileAtributtes: Uma interface que dar suporte para alterar atributos de um arquivo
+		 * independete do sistema operacional.
+		 * 
+		 * DosFileAtributtes: Um classe que implementa o BasicFilesAtributtes, para os sistemas operacionais
+		 * baseados em DOS.
+		 * 
+		 * PosixFileAtributtes: Uma classe que implementa o BasicFileAtributtes, para sistemas operacionais baseados em Posix.
+		 */
+		
+		File file = new File("home/nome.txt");
+		LocalDateTime date = LocalDateTime.now().minusDays(10);
+	}
+}

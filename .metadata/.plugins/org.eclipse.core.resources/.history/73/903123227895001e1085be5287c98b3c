@@ -1,0 +1,7 @@
+package maratona.classesUtilitarias.serializacao.dominio;
+
+public class ObjetoSerializado {
+	private Long id;
+	private String nome;
+	private String password;
+}

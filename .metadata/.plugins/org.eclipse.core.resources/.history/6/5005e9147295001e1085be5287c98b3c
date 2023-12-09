@@ -1,0 +1,27 @@
+package maratona.classesUtilitarias.regex.teste;
+
+import java.io.IOException;
+import java.nio.file.FileSystems;
+import java.nio.file.FileVisitResult;
+import java.nio.file.Path;
+import java.nio.file.PathMatcher;
+import java.nio.file.SimpleFileVisitor;
+import java.nio.file.attribute.BasicFileAttributes;
+
+class JavaClassFileVisitor extends SimpleFileVisitor<Path>{ 
+	@Override
+	public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+		System.out.println(file.getFileName());
+		return FileVisitResult.CONTINUE;
+	}
+	
+	public void imprimirArquivosJavaClass(String gloob) {
+		PathMatcher pathMatcher = FileSystems.getDefault().getPathMatcher(gloob) 
+	}
+}
+
+public class PathMatcherTeste2 {
+	public static void main(String[] args) {
+		
+	}
+}

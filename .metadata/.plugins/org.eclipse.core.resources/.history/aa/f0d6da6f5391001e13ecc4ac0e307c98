@@ -1,0 +1,14 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.nio.file.Path;
+import java.nio.file.SimpleFileVisitor;
+
+class ListAllFiles2 extends SimpleFileVisitor<Path>{
+		
+}
+
+public class SimpleFileVisitorsTeste2 {
+	public static void main(String[] args) {
+		
+	}
+}

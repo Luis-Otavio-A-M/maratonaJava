@@ -1,0 +1,23 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class RelativizeTeste {
+	public static void main(String[] args) {
+		Path pasta = Paths.get("/home/user");
+		Path arquivo = Paths.get("/home/user/dev/OlaMundo.java");
+		/*
+		 * Agora, dado esses 2 caminhos absolutos, como eu, a partir
+		 * do 1º caminho conseguiria chegar no 2º, ou seja, qual é o
+		 * caminho relativo para sair do 1º Path e chegar ao 2º?
+		 */
+		
+		/*
+		 *  Para responder a resposta anterior, podemos utilizar o método 
+		 *  relativize, que retorna o caminho relativo entre o caminho origem
+		 *  e o parâmetro.
+		 */
+		System.out.println(pasta.relativize(arquivo)); 
+	}
+}

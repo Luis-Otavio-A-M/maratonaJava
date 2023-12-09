@@ -1,0 +1,13 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.nio.file.Path;
+
+public class ZipOutputStreamTeste {
+	public static void main(String[] args) {
+		
+	}
+	
+	private static void zipar(Path origem, Path destino) {
+		
+	}
+}

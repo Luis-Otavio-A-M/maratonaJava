@@ -1,0 +1,1 @@
+Testando a escrita em arquivos, estou escrevendo muito para ver se será escrito menos caracteres por causa do método ter sido encerrado antes de todos os dados serem enviados ao buffer de escrita

@@ -1,0 +1,7 @@
+package maratona.classesUtilitarias.serializacao.teste;
+
+public class SerializacaoTeste {
+	public static void main(String[] args) {
+		
+	}
+}

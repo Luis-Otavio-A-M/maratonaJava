@@ -1,9 +1,0 @@
-package maratona.javacore.associacao.teste.exercicio;
-
-import maratona.javacore.associacao.dominio.exercicio.Local;
-
-public class ExercicioTeste {
-	public static void main(String[] args) {
-		Local local = new Local("Rua ABC, nº 123");
-	}
-}

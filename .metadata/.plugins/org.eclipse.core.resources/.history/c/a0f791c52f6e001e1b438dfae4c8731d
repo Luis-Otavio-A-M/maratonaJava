@@ -1,8 +1,0 @@
-package maratona.javacore.associacao.teste.exercicio;
-
-public class Professor {
-	private String nome;
-	private String especializacao;
-	
-	
-}

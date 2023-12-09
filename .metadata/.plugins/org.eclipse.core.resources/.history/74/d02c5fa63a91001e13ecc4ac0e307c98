@@ -1,0 +1,14 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.nio.file.DirectoryStream;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class DirectoryStreamTeste {
+	public static void main(String[] args) {
+		Path path = Paths.get("./");
+		try(DirectoryStream<T> directoryStream){
+			
+		}
+	}
+}

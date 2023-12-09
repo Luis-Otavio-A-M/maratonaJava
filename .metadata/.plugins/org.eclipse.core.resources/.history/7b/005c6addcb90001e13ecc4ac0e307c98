@@ -1,0 +1,7 @@
+package maratona.classesUtilitarias.nio.teste;
+
+public class NormalizeTeste {
+	public static void main(String[] args) {
+		String diretorioProjeto = "home/user/dev";
+	}
+}

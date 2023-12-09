@@ -1,0 +1,31 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.io.IOException;
+import java.nio.file.DirectoryStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
+
+public class ZipOutputStreamTeste {
+	public static void main(String[] args) {
+		Path origem = Paths.get("./pasta/subPasta1/subSubPasta1");
+		Path destino = Paths.get("./pasta/arquivo.zip");
+		zipar(origem, destino);
+	}
+
+	private static void zipar(Path origem, Path destino) {
+		try (ZipOutputStream stream = new ZipOutputStream(Files.newOutputStream(destino));
+				DirectoryStream<Path> directoryStream = Files.newDirectoryStream(origem)) {
+			for(Path file:directoryStream) {
+				ZipEntry entry = new ZipEntry(file.getFileName().toString());
+				stream.putNextEntry(entry);
+				Files.copy(file, stream);
+				stream.closeEntry();
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

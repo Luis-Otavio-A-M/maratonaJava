@@ -1,0 +1,18 @@
+package maratona.classesUtilitarias.serializacao.teste;
+
+import java.io.ObjectOutputStream;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import maratona.classesUtilitarias.serializacao.dominio.ObjetoSerializado;
+
+public class SerializacaoTeste {
+	public static void main(String[] args) {
+		ObjetoSerializado objeto = new ObjetoSerializado(1L, "objeto", "1234");
+	}
+	
+	private static void serializar() {
+		Path destino = Paths.get(".\\objetoSerializado.txt");
+		try(ObjectOutputStream objectOutputStream = new ObjectOutputStream(Files.n))
+	}
+}

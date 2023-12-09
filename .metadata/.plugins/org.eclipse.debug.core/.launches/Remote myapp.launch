@@ -7,4 +7,5 @@
         <mapEntry key="port" value="61913"/>
     </mapAttribute>
     <stringAttribute key="org.eclipse.jdt.launching.VM_CONNECTOR_ID" value="org.eclipse.jdt.launching.socketAttachConnector"/>
+    <booleanAttribute key="setAsDefault" value="true"/>
 </launchConfiguration>

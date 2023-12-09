@@ -1,6 +1,0 @@
-package maratona.javacore.blocosDeInicializacao.dominio;
-
-public class Anime {
-	private String nome;
-	
-}

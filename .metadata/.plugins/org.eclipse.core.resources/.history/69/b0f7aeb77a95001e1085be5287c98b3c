@@ -1,0 +1,5 @@
+package maratona.classesUtilitarias.serializacao.dominio;
+
+public class ObjetoSerializadoPai {
+
+}

@@ -1,0 +1,10 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.nio.file.Path;
+
+public class PathTeste3 {
+	public static void main(String[] args) {
+		Path caminhoDir = Paths.get("home/user");
+		
+	}
+}

@@ -1,0 +1,13 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.attribute.BasicFileAttributes;
+
+public class BasicFilesAtributtesTeste2 {
+	public static void main(String[] args) {
+		Path path = Paths.get("home/bfa2.txt");
+		Files.readAttributes(path, BasicFileAttributes.class, null)
+	}
+}

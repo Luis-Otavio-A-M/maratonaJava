@@ -1,0 +1,36 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.attribute.BasicFileAttributes;
+import java.nio.file.attribute.FileTime;
+import java.time.LocalDateTime;
+import java.util.concurrent.TimeUnit;
+
+public class BasicFilesAtributtesTeste2 {
+	public static void main(String[] args) throws IOException {
+		Path path = Paths.get("home/new.txt");
+		/*
+		 * Pelo que entendi aqui, passamos para o método o path
+		 * do qual queremos os atributos do arquivo, e junto a isso,
+		 * passamos a classe que queremos que o objeto retornado seja do mesmo tipo
+		 * Nesse caso, como passamos uma interface, ou se fosse uma classe pai, todos 
+		 * que implementarem essa interface/ extender a classe poderão ser retornados,
+		 * por causa do polimorfismo. Assim, neste caso, eu não preciso me preocupar, com qual
+		 * SO está sendo executada a aplicação, pois sendo retornado um DosFileAtributtes ou
+		 * PosixFilesAtributtes, por ser uma interface, poderemos usar o mesmo método para qualquer objeto.
+		 */
+		BasicFileAttributes fileAttributes = Files.readAttributes(path, BasicFileAttributes.class);
+		Instant timeCriacaInstant = fileAttributes.creationTime().toInstant();
+		LocalDateTime timeCriacao2 = LocalDateTime.ofInstant(null, null)
+		FileTime timeCriacao = fileAttributes.creationTime();
+		FileTime timeUltimoAcesso = fileAttributes.lastAccessTime();
+		FileTime timeUltimoModificacao = fileAttributes.lastModifiedTime();
+		
+		System.out.println("timeCriacao: " + timeCriacao);
+		System.out.println("timeUltimoAcesso: " + timeUltimoAcesso);
+		System.out.println("timeUltimoModificacao: " + timeUltimoModificacao);
+	}
+}

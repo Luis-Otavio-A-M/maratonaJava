@@ -1,0 +1,21 @@
+package maratona.classesUtilitarias.regex.teste;
+
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
+import java.nio.file.PathMatcher;
+import java.nio.file.Paths;
+
+public class PathMatcherTeste {
+	public static void main(String[] args) {
+		Path pathBkp = Paths.get("pasta/subPasta/file.bkp");
+		Path pathTxt = Paths.get("pasta/subPasta/file.txt");
+		Path pathJava = Paths.get("pasta/subPasta/file.java");
+		
+		matches(pathBkp, "*:.bkp");
+	}
+	
+	private static void matches(Path path, String glob) {
+		PathMatcher matcher = FileSystems.getDefault().getPathMatcher(glob);
+		System.out.println(glob + ": " + matcher.matches(path));
+	}
+}

@@ -1,0 +1,9 @@
+package maratona.classesUtilitarias.nio.teste;
+
+import java.nio.file.Paths;
+
+public class RelativizeTeste {
+	public static void main(String[] args) {
+		Path pasta = Paths.get("");
+	}
+}
